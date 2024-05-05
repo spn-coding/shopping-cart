@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <title>Online Shop</title>
+    <!-- logo -->
+    <link rel="shortcut icon" href="logo.jpg" type="image/x -icon" />
+    <!-- custom css1 -->
+    <link rel="stylesheet" href="style.css" />
+    
+  </head>
+  <body>
+    <div class="header">
+      <div class="menu">
+        <span><img src="logo.jpg" class="logo" /></span>
+        <span>HOME</span>
+        <span>PRODUCTS</span>
+        <span>ABOUT US</span>
+        <span>CONTACT</span>
+      </div>
+    </div>
+    <div class="mainbody">
+      <div class="products">
+        <div class="title">PRODUCTS LINE UP</div>
+        <div class="product">
+          <div class="category"></div>
+          <div class="itembox">
+            <!-- card -->
+          </div>
+        </div>
+        <div class="product">
+          <div class="category"></div>
+          <div class="itembox"></div>
+        </div>
+      </div>
+      <div class="cart">
+        <div class="title">Your Cart</div>
+        <div class="calculateitem">
+          <!-- selected item -->
+        </div>
+        <div class="title" id="discounttitle">Discount(15%)</div>
+        <div class="amount" id="discountprice"></div>
+        <div class="title">Delivery</div>
+        <input
+          type="text"
+          class="userinfo"
+          placeholder="Your Name"
+          id="yourname"
+        />
+        <input
+          type="text"
+          class="userinfo"
+          placeholder="Phone Number"
+          id="phone"
+        />
+        <input
+          type="text"
+          class="userinfoaddress"
+          placeholder="Address"
+          id="address"
+        />
+        <select class="state" id="delivery"></select>
+        <div class="title">Grand Total</div>
+        <div id="grand" class="amount"></div>
+        <button class="order" id="order">Place Order</button>
+        <p class="orderdetail" id="orderdetail"></p>
+      </div>
+    </div>
+
+    <!-- ionicons js -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <!-- ionicons js -->
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- sweetalet2 cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <!-- jQuery 3.6.0 -->
+    <script src="jquery3.6.0.js"></script>
+    <!-- custom js1 -->
+    <script src="script.js"></script>
+  </body>
+</html>

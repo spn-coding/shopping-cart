@@ -1,0 +1,87 @@
+{
+    "products":[
+        {
+            "category":"Men",
+            "items":[
+                {
+                    "pname":"Hoodies",
+                    "pcode" : "M0234",
+                    "img":"men/shirt1.jpg",
+                    "price" : 6000
+                },
+                {
+                    "pname":"Manchester",
+                    "pcode" : "M0034",
+                    "img":"men/shirt2.jpg",
+                    "price" : 4000
+                },
+                {
+                    "pname":"Black Shirt",
+                    "pcode" : "M0299",
+                    "img":"men/shirt3.jpg",
+                    "price" : 5000
+                },
+                {
+                    "pname":"Blue Shirt",
+                    "pcode" : "M0534",
+                    "img":"men/shirt4.jpg",
+                    "price" : 2990
+                },
+                {
+                    "pname":"White Shirt",
+                    "pcode" : "M0204",
+                    "img":"men/shirt5.jpg",
+                    "price" : 3000
+                },
+                {
+                    "pname":"Bayern Shirt",
+                    "pcode" : "M0134",
+                    "img":"men/shirt6.jpg",
+                    "price" : 4500
+                }
+            ]
+        },
+            {
+            "category":"Woman",
+            "items":[
+                {
+                    "pname":"White Adidas",
+                    "pcode" : "W0234",
+                    "img":"woman/shirt1.jpg",
+                    "price" : 4500
+                },
+                {
+                    "pname":"Pupple Adidas",
+                    "pcode" : "W0034",
+                    "img":"woman/shirt2.jpg",
+                    "price" : 4000
+                },
+                {
+                    "pname":"Midnight Adidas",
+                    "pcode" : "W0299",
+                    "img":"woman/shirt3.jpg",
+                    "price" : 3990
+                },
+                {
+                    "pname":"Silver Shirt",
+                    "pcode" : "W0534",
+                    "img":"woman/shirt4.jpg",
+                    "price" : 1500
+                },
+                {
+                    "pname":"Black Shirt",
+                    "pcode" : "W0204",
+                    "img":"woman/shirt5.jpg",
+                    "price" : 6500
+                },
+                {
+                    "pname":"Skyblue Shirt",
+                    "pcode" : "W0134",
+                    "img":"woman/shirt6.jpg",
+                    "price" : 8500
+                }
+            ]
+        }
+
+    ]
+}
